@@ -32,7 +32,7 @@ const things = [
     story: "Que te puedo decir, esos labios son perfectos para besar y no sabes las ganas que tengo de hacerlo cada que te veo." 
   },
   {
-    title: "Tus manos",
+    title: "Tus manos.",
     story: "La primera vez que tomaste mi mano en McDonald's me di cuenta que no queria soltarlas nunca más."
   },
   {
@@ -81,143 +81,147 @@ const things = [
   },
   {
     title: "Cuando me llamas sin avisar.",
-    story: "" 
+    story: "Definitivamente ver tu nombre en mis notificaciones me alegra totalmente el día. Recibir tu llamadas y mensajes siempre será la mejor parte de mi día." 
   },
   {
     title: "Cuando me mandas besitos por llamada.",
-    story: "" 
+    story: "Todos esos besitos que me mandas por llamada me hacen sentir mucho más cerca de ti." 
   },
   {
     title: "Cuando nos dimos el primer beso virtual.",
-    story: "" 
+    story: "Ese día fue una mezcla entre nervios, emoción y felicidad, ese momento vivirá siempre en mi corazón." 
   },
   {
     title: "Cuando nos besamos por primera vez en el parque.",
-    story: "" 
+    story: "Ese beso fue el inicio de una historia hermosa. No esperaba que fuera justo en ese momento, pero fue perfecto tal cual fue." 
   },
   {
     title: "Cuando cantas en el coche.",
-    story: "" 
+    story: "Te sabes tantas canciones y eso me encanta, me divierte mucho escucharte y en una que otra poder unirme a ti." 
   },
   {
     title: "El karaoke en el coche.",
-    story: "" 
+    story: "El primer día que hicimos karaoke en el coche fue muy divertido, estaba muy nerviosa porque no sabía cantar, pero fue una experiencia muy bonita." 
   },
   {
     title: "Cuando haces lo posible por ir a visitarme.",
-    story: "" 
+    story: "Sé que vives lejos y muchas veces es complicado para ti, pero agradezco cada una de las veces que haz ido a visitarme." 
   },
   {
     title: "Tu disposición para hacer cualquier plan.",
-    story: "" 
+    story: "No importa que tan extraño o de úiltimo momento sea el planl, siempre estás dispuesto a hacerlo conmigo y por mi." 
   },
   {
     title: "Tu amabilidad.",
-    story: "" 
+    story: "Desde antes de conocerte me di cuenta de lo amable que eres siempre. Definitivamente es una de las cosas que más admiro y me gusta de ti." 
   },
   {
     title: "Lo respetuoso que eres.",
-    story: "" 
+    story: "Siempre me tratas con respeto, incluso cuando no estás de acuerdo conmigo. Eso me hace sentir muy valorada." 
   },
   {
     title: "Tu caballerosidad.",
-    story: "" 
+    story: "Hoy en día es difícil encontrar a alguien tan caballeroso como tú. Cada uno de tus detalles me hace sentir amada." 
   },
   {
     title: "Poder jugar videojuegos juntos.",
-    story: "" 
+    story: "No esperaba encontrar a un compañero de juego en ti, pero Dios me sorprendió con eso. Me encanta poder compartir esos pasatiempos contigo." 
   },
   {
     title: "Tu risa.",
-    story: "" 
+    story: "Amo esa risa tan contagiosa que tienes." 
   },
   {
     title: "Tu valentía.",
-    story: "" 
+    story: "Realmente eres un hombre valiente, admiro mucho eso de ti." 
   },
   {
     title: "Tu inteligencia emocional.",
-    story: "" 
+    story: "Tienes una gran capacidad para entender y manejar tus emociones, piensas todo tan detenida y maduramente. He aprendido mucho de ti." 
   },
   {
     title: "Tu espiritualidad.",
-    story: "" 
+    story: "Esto definitivamente es algo que le había pedido tanto a Dios en una pareja y en ti lo encontré. Disfruto mucho poder compartir contigo aspectos espirituales y juntos poder crecer en esa área." 
   },
   {
     title: "El movimiento involuntario de tu ceja izquierda.",
-    story: "" 
+    story: "Seré breve, AMO ese movimiento." 
   },
   {
     title: "Tu bigote.",
-    story: "" 
+    story: "A veces pica, pero eso no quiere decir que no me guste. Es algo tan distintivo de ti que extraño verlo cuando te lo quitas." 
   },
   {
     title: "Tus besos.",
-    story: "" 
+    story: "Tus besos... tus besos son lo mejor del mundo." 
   },
   {
     title: "Tus abrazos.",
-    story: "" 
+    story: "Esos abrazos tuyos me hacen sentir en casa, es una paz y traquilidad que no puedo explicar en palabras." 
   },
   {
     title: "Lo trabajador que eres.",
-    story: "" 
+    story: "Estoy tan orgullosa de ti por tanto esfuerzo y empeño que le pones a todo lo que haces. Admiro toda esa entrega y ganas de le pones a lo que haces, sea lo que sea." 
   },
   {
     title: "Tus stickers de WhatsApp.",
-    story: "" 
+    story: "Las conversaciones contigo son mucho más divertidas gracias a tus stickers." 
   },
   {
     title: "Como te llevas con mi familia.",
-    story: "" 
+    story: "Me hace muy faliz saber que te llevas tan bien con ellos, desde mis padres hasta mis sobrinos. Veo que interacturas con ellos de una forma tan natural que me hace amarte cada día más." 
   },
   {
     title: "Tu curiosidad.",
-    story: "" 
+    story: "La curiosidad que hay en ti por aprender de todo me encanta." 
   },
   {
     title: "Tu costumbre de buscar todo en Google y no quedarte con la duda.",
-    story: "" 
+    story: "Soy una persona que siempre hace eso, y me encanta que tú también lo hagas." 
   },
   {
     title: "Lo segura que me siento a tu lado.",
-    story: "" 
+    story: "Que te puedo decir, eres mi lugar seguro." 
   },
   {
     title: "Lo feliz que me haces.",
-    story: "" 
+    story: "He sido tan feliz a tu lado, no lo puedo negar." 
   },
   {
     title: "Que tú te acercaste primero.",
-    story: "" 
+    story: "Te vi y dije 'lo veo y lo quiero', pero nunca me animé a acercarme. Agradezco que tu te hayas acercado primero." 
   },
   {
-    title: "Cuando me dijiste “te amo mi amor” y luego fingiste no haberlo dicho para que yo no me asustara.",
-    story: "" 
+    title: "Cuando me dijiste 'te amo, mi amor' y luego fingiste no haberlo dicho para que yo no me asustara.",
+    story: "Nunca olvidaré ese momento, espero que vengan muchos más entre nosotros." 
   },
   {
     title: "Siempre aceptas hacer todo lo que se me ocurre.",
-    story: "" 
+    story: "Eres tan comprensivo y siempre estás dispuesto, nunca cambies." 
   },
   {
     title: "Que podemos ir juntos en la iglesia.",
-    story: "" 
+    story: "Otra cosa que le había pedido a Dios y que en ti encontré. Me encanta poder compartir mi fe contigo." 
   },
   {
     title: "La vez que aceptaste hacer huevos estrellados por mi.",
-    story: "" 
+    story: "Tu primera vez en mi casa y sin pensarlo lo aceptaste. Te quedaron deliciosos. Hagamoslo ptra vez." 
   },
   {
     title: "El día que me ayudaste a tejer la silla.",
-    story: "" 
+    story: "A esto me refiero cuando digo que aceptas hacer todo lo que se me ocurre. Fue un buen día." 
   },
   {
     title: "El contacto físico.",
-    story: "" 
+    story: "Estará demás mencionar esto? Desde tomarnos de la mano, abrazarnos, besarnos o simplemente rozarnos, me encanta cada forma de contacto físico contigo." 
   },
   {
     title: "Tu paciencia.",
-    story: "" 
+    story: "Gracias por ser tan paciente conmigo, TE AMO." 
+  },
+  {
+    title: "Seguramente me faltan muchas cosas por decirte,",
+    story: "pero mi amor por ti nunca terminará." 
   },
 ]
 
