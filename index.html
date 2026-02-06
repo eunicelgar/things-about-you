@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cosas que amo de ti</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Main Container -->
+  <main class="container">
+
+    <!-- Header -->
+    <header class="header">
+      <h1><span id="counterTotal">0</span> Cosas que amo de ti</h1>
+      <p class="subtitle">Friendly reminder de cuán especial eres para mi</p>
+    </header>
+
+    <!-- Counter -->
+    <div class="counter" id="counter">
+      Thing 1 of 50
+    </div>
+
+    <!-- Card -->
+    <section class="card">
+      <p class="thing-text" id="thingText">
+        "I love the way you make me feel safe just by being around."
+      </p>
+
+      <div class="buttons">
+        <button id="prevBtn" class="secondary-btn">
+          Anterior
+        </button>
+        
+        <button id="openModalBtn" class="secondary-btn">
+          Lee la historia
+        </button>
+
+        <button id="nextBtn" class="primary-btn">
+          Siguiente
+        </button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Modal -->
+  <div class="modal hidden" id="modal">
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <div class="modal-content">
+      <p id="modalText">
+        This is where the story will appear.
+      </p>
+
+      <button id="closeModal" class="secondary-btn">
+        Cerrar
+      </button>
+    </div>
+  </div>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,172 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #fff1f4, #fef6ef);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+}
+
+/* Main Container */
+.container {
+  width: 90%;
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Header */
+.header h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+/* Counter */
+.counter {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #a05a6c;
+  margin-bottom: 1rem;
+}
+
+/* Card */
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+  animation: fadeIn 0.6s ease;
+}
+
+.thing-text {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+/* Buttons */
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  padding: 0.75rem 1.2rem;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  transition: all 0.3s ease;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary-btn {
+  background: #e75480;
+  color: white;
+}
+
+.primary-btn:hover {
+  background: #d9436f;
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 1px solid #e75480;
+  color: #e75480;
+}
+
+.secondary-btn:hover {
+  background: #e75480;
+  color: white;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+  position: relative;
+  background: white;
+  padding: 2rem;
+  border-radius: 16px;
+  max-width: 500px;
+  width: 90%;
+  text-align: center;
+  z-index: 1;
+  animation: scaleIn 0.4s ease;
+}
+
+.modal-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive */
+@media (min-width: 600px) {
+  .buttons {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
